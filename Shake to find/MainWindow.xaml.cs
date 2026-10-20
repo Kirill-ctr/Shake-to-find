@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Security.AccessControl;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -16,6 +17,9 @@ namespace Shake_to_find
     /// </summary>
     public partial class MainWindow : Window
     {
+        private Point _previousPosition;
+        private Vector _previousVector;
+
         public MainWindow()
         {
             InitializeComponent();

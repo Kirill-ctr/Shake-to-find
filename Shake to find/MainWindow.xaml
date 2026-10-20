@@ -9,9 +9,16 @@
         AllowsTransparency="True"
         Background="Transparent"
         Topmost="True"
-        ShowInTaskbar="False"
+        ShowInTaskbar="True"
         WindowState="Maximized"
-        Title="Owerlay" Height="450" Width="800">
-    <Grid>
-    </Grid>
+        Title="Overlay" Height="450" Width="800">
+
+    <Canvas x:Name="OverlayCanvas">
+        <Ellipse x:Name="LargeCursorIndicator"
+                 Width="80" Height="80"
+                 Fill ="#800FF000"
+                 Stroke="White" StrokeThickness = "2"
+                 Visibility="Collapsed"/>
+    </Canvas>
+
 </Window>
