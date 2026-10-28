@@ -6,8 +6,8 @@
         xmlns:local="clr-namespace:Shake_to_find"
         mc:Ignorable="d"
         WindowStyle="None"
+        Opacity="0.7"
         AllowsTransparency="True"
-        Background="Transparent"
         Topmost="True"
         ShowInTaskbar="True"
         WindowState="Maximized"
@@ -18,7 +18,7 @@
                  Width="80" Height="80"
                  Fill ="#800FF000"
                  Stroke="White" StrokeThickness = "2"
-                 Visibility="Collapsed"/>
+                 />
     </Canvas>
 
 </Window>
